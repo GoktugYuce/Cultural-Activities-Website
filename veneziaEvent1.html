@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Road To Italy</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.png" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="events.html" class="nav-link"> events </a>
+          <a href="gallery.html" class="nav-link"> gallery </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+      <div class="recipe-page">
+        <section class="event-hero">
+          <img
+            src="./assets/venezia/doge.jpg"
+            class="img event-hero-img"
+          />
+          <article class="event-info">
+            <h2>Doge's Palace</h2>
+            <p>
+                The Doge's Palace is a palace built in Venetian Gothic style, 
+                and one of the main landmarks of the city of Venice in northern Italy. 
+                The palace was the residence of the Doge of Venice, the supreme authority 
+                of the former Republic of Venice. It was built in 1340 and extended and modified 
+                in the following centuries.
+            </p>
+          </article>
+        </section>
+        <section class="event-content">
+          <article>
+            <h4>schedule</h4>
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Doge's Palace dominates one side of the bustling Piazza San Marco, 
+                the heart of Venice. Arrive on foot or via a scenic vaporetto (water bus) ride. 
+                If interested in the Secret Itineraries Tour (including hidden passages and prison cells), 
+                pre-booking for limited spots is essential.
+              </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Enter through the designated gate and marvel at the interior courtyard. Ascend the opulent 
+                staircase decorated with gold and stucco.
+              </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Allocate time to wander the halls and chambers at your own pace, soaking in the lavish details.
+                If interested, explore the Palace's collection of weapons and armor. If short on time, 
+                focus on the key highlights. For deeper immersion, allow ample time or choose a more specialized tour.
+              </p> 
+            </div>
+          </article>
+          <article class="second-column">
+            <h4>Register Form</h4>
+            <form class="form contact-form">
+              <div class="form-row">
+                <label html="name" class="form-label">your name</label>
+                <input type="text" name="name" id="name" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="message" class="form-label">message</label>
+                <textarea name="message" id="message" class="form-textarea"></textarea>
+              </div>
+              <button type="submit" class="btn btn-block">
+                submit
+              </button>
+            </form>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">RoadToItaly</span>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

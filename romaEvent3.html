@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Road To Italy</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.png" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="events.html" class="nav-link"> events </a>
+          <a href="gallery.html" class="nav-link"> gallery </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+      <div class="recipe-page">
+        <section class="event-hero">
+          <img
+            src="./assets/roma/basilica.jpg"
+            class="img event-hero-img"
+          />
+          <article class="event-info">
+            <h2>St. Peter's Basilica</h2>
+            <p>
+                The Papal Basilica of Saint Peter in the Vatican, or simply 
+                Saint Peter's Basilica, is a church of the Italian High 
+                Renaissance located in Vatican City, an independent microstate 
+                enclaved within the city of Rome, Italy.
+            </p>
+          </article>
+        </section>
+        <section class="event-content">
+          <article>
+            <h4>schedule</h4>
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Make your way to the vast St. Peter's Square. You can use 
+                public transportation or walk if staying nearby. Join the 
+                security line, which often wraps around part of the square. 
+                Be prepared for waits, especially during peak season.
+              </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Once through security, enter the awe-inspiring basilica. 
+                Take a moment to appreciate the sheer scale and beauty.
+              </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Visit the grottoes (underground level) to see the tombs of 
+                numerous popes and other noteworthy figures.  If interested, 
+                explore the Treasury museum (fee required), which houses 
+                liturgical objects and artifacts.
+              </p>
+            </div>
+          </article>
+          <article class="second-column">
+            <h4>Register Form</h4>
+            <form class="form contact-form">
+              <div class="form-row">
+                <label html="name" class="form-label">your name</label>
+                <input type="text" name="name" id="name" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="message" class="form-label">message</label>
+                <textarea name="message" id="message" class="form-textarea"></textarea>
+              </div>
+              <button type="submit" class="btn btn-block">
+                submit
+              </button>
+            </form>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">RoadToItaly</span>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

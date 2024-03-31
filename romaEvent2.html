@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Road To Italy</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.png" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="events.html" class="nav-link"> events </a>
+          <a href="gallery.html" class="nav-link"> gallery </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+      <div class="recipe-page">
+        <section class="event-hero">
+          <img
+            src="./assets/roma/pantheon.jpg"
+            class="img event-hero-img"
+          />
+          <article class="event-info">
+            <h2>pantheon</h2>
+            <p>
+                The Pantheon is a former Roman temple and, since AD 609, 
+                a Catholic church in Rome, Italy. It was built on the site 
+                of an earlier temple commissioned by Marcus Agrippa during 
+                the reign of Augustus, then after that burnt down, the 
+                present building was ordered by the emperor Hadrian and 
+                probably dedicated c. AD 126.
+            </p>
+          </article>
+        </section>
+        <section class="event-content">
+          <article>
+            <h4>schedule</h4>
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                The Pantheon is located in the heart of Rome's historic center, 
+                within the bustling Piazza della Rotonda. You can easily walk 
+                to the Pantheon from many central locations or take public 
+                transportation (buses stop nearby). Be prepared for crowds, 
+                especially during peak season.
+              </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Before entering, take a moment to admire the Pantheon's facade 
+                the massive portico with its towering Corinthian columns and 
+                triangular pediment. Note the ancient inscription dedicating 
+                the building. Entering the Pantheon: Step inside and be amazed 
+                by the sheer scale of the interior. Its vast dome and the famous 
+                oculus (circular opening at the top) create a breathtaking 
+                sense of space and light.
+              </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Take some time to simply soak in the atmosphere of this remarkable 
+                ancient structure with its unique design. Consider renting an 
+                audioguide for deeper historical insights if desired.
+              </p>
+            </div>
+          </article>
+          <article class="second-column">
+            <h4>Register Form</h4>
+            <form class="form contact-form">
+              <div class="form-row">
+                <label html="name" class="form-label">your name</label>
+                <input type="text" name="name" id="name" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="message" class="form-label">message</label>
+                <textarea name="message" id="message" class="form-textarea"></textarea>
+              </div>
+              <button type="submit" class="btn btn-block">
+                submit
+              </button>
+            </form>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">RoadToItaly</span>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

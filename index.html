@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Road To Italy</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.png" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="events.html" class="nav-link"> events </a>
+          <a href="gallery.html" class="nav-link"> gallery </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+      <header class="hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <img src="assets/hero italy.png" class="hero-logo"/>
+          </div>
+        </div>
+      </header>
+      <section class="events-container">
+        <div class="tags-container">
+          <h3>cities</h3>
+          <div class="tags-list">
+            <a>Roma</a>
+            <a>Firenze</a>
+            <a>Venezia</a>
+          </div>
+        </div>
+        <div class="events-list">
+          <a href="roma.html" class="event">
+            <img
+              src="./assets/cities/roma.jpg"
+              class="img event-img"
+              alt=""
+            />
+            <h5>Roma</h5>
+          </a>
+          <a href="firenze.html" class="event">
+            <img
+              src="./assets/cities/firenze.jpeg"
+              class="img event-img"
+              alt=""
+            />
+            <h5>Firenze</h5>
+          </a>
+          <a href="venezia.html" class="event">
+            <img
+              src="./assets/cities/venezia.jpeg"
+              class="img event-img"
+              alt=""
+            />
+            <h5>Venezia</h5>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">RoadToItaly</span>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
